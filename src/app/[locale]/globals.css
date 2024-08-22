@@ -26,3 +26,6 @@
 .MuiInput-input{
   background-color: transparent !important;
 }
+html {
+  font-family: var(--font-roboto);
+}
