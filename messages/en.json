@@ -1,0 +1,103 @@
+{
+    "Sidebar": {
+      "Dashboard": "Dashboard",
+      "UsersManagement": "Users Management",
+      "OrdersManagement": "Orders Management",
+      "ProductsManagement": "Products Management",
+      "RoleManagement": "Role Management",
+      "CategoryManagement": "Category Management"
+    },
+    "Dashboard": {
+      "Overview": "Overview",
+      "UpFrom": "Up from",
+      "DownFrom": "Down from",
+      "Yesterday": "yesterday",
+      "PastWeek": "past week",
+      "SalesDetail": "Sales Detail",
+      "BlogList":"Blog List",
+      "BlogName":"Blog Name",
+      "CreatedDate":"Created Date",
+      "Status":"Status"
+    },
+    "RoleManagement":{
+      "RoleManagement":"Role Management",
+      "STT":"STT",
+      "Name":"Name",
+      "CreatedAt":"Created At",
+      "ViewDetail":"View Detail",
+      "CreateRole":"Create Role",
+      "DeleteRole":"Delete Role",
+      "RoleName":"Role Name",
+      "UsersManagement":"Users Management",
+      "CategoryManagement":"Category Management",
+      "ProductManagement":"Product Management",
+      "OrdersManagement":"Orders Management"
+    },
+    "CategoryManagement":{
+      "CategoryManagement":"Category Management",
+      "STT":"STT",
+      "Name":"Name",
+      "CreatedAt":"Created At",
+      "Create":"Create",
+      "CategoryName":"Category Name",
+      "SubCategoryName":"Sub Category Name",
+      "CreateSubCategory":"Create Sub Category",
+      "CreateCategory":"Create Category",
+      "DeleteSubCategory":"Delete Sub Category",
+      "DeleteCategory":"Delete Category",
+      "ViewDetail":"View Detail"
+    },
+    "UsersManagement":{
+      "UsersManagement": "Users Management",
+      "ID": "ID",
+      "Name":"Name",
+      "CreatedAt":"Created At",
+      "Role":"Role",
+      "FirstName":"First Name",
+      "LastName":"Last Name",
+      "Email":"Email",
+      "Password":"Password",
+      "ConfirmPassword":"Confirm Password",
+      "PhoneNumber":"Phone Number",
+      "CreateUser":"Create User",
+      "ViewDetail":"View Detail",
+      "DeleteUser":"Delete User",
+      "ChooseRole":"Choose Role"
+    },
+    "ProductsManagement":{
+      "ProductsManagement":"Products Management",
+      "STT":"STT",
+      "Name":"Name",
+      "Image":"Image",
+      "Category":"Category",
+      "Price":"Price",
+      "ViewDetail":"View Detail",
+      "DeleteProduct":"Delete Product",
+      "ProductImage":"Product Image",
+      "ChooseImage":"Choose Image",
+      "ProductDetails":"Product Details",
+      "ProductName":"Product Name",
+      "ChooseCategory":"Choose Category",
+      "Quantity":"Quantity",
+      "Description":"Description",
+      "CreateProduct":"Create Product"
+    },
+    "OrdersManagement":{
+      "OrdersManagement":"Orders Management",
+      "ID": "ID",
+      "Name":"Name",
+      "Address":"Address",
+      "Status":"Status",
+      "Date":"Date",
+      "ViewDetail":"View Detail"
+    },
+    "Button":{
+      "Search": "Search...",
+      "Create": "Create",
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "View": "View",
+      "OK": "OK",
+      "Cancel": "Cancel"
+    }
+}
