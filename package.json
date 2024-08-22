@@ -13,8 +13,8 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
-    "@next/font": "^14.2.6",
     "@uiw/react-md-editor": "^4.0.4",
+    "axios": "^1.7.4",
     "chart.js": "^4.4.3",
     "lodash-es": "^4.17.21",
     "lodash.debounce": "^4.0.8",
@@ -23,7 +23,8 @@
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
-    "react-hook-form": "^7.51.5"
+    "react-hook-form": "^7.51.5",
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",

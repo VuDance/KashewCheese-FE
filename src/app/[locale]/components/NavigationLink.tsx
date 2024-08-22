@@ -21,7 +21,7 @@ export default function NavigationLink<Pathname extends AppPathnames>({
         aria-current={isActive ? 'page' : undefined}
         className={clsx(
           'flex items-center justify-center text-lg gap-2 transition-all duration-300',
-          isActive ? 'text-sidebar' : 'text-gray-400 hover:text-sidebar'
+          isActive ? 'text-sidebar' : 'text-primary hover:text-sidebar'
         )}
         href={href}
         {...rest}

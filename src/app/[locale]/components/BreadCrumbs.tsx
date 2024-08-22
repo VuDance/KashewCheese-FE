@@ -35,7 +35,7 @@ const BreadCrumbs = ((props:BreadCrumbProps) => {
               <div key={index}>
                   <div
                     key={index}
-                    className='text-2xl font-semibold'
+                    className='text-2xl font-semibold text-primary'
                   >
                     {item.title}
                   </div>

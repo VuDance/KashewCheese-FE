@@ -19,7 +19,7 @@ const Header = () => {
     const id = open ? 'simple-popover' : undefined;
     return (
         <div className='h-[100px] bg-white flex items-center justify-between'>
-            <label id="breadcrumbs" className='text-primary2 px-10'></label>
+            <label id="breadcrumbs" className='text-primary px-10'></label>
             <IconButton onClick={handleClick}>
                 <Avatar>H</Avatar>
             </IconButton>
