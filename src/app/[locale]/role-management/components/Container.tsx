@@ -12,10 +12,11 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddEditRole from './AddEditRole'
 import DeleteRole from './DeleteRole'
+import { GetRolesType } from '@/app/apis/role-services'
 
 
 interface ContainerProps {
-    data: Role[]
+    data: GetRolesType
 }
 // const filterOptions=[]
 
@@ -74,7 +75,7 @@ const Container = ({ data }: ContainerProps) => {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {data.map((row,index:number) => (
+                        {data &&data.result.roles&& data.result.roles.map((row:Role,index:number) => (
                             <TableRow
                                 key={row.name}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -83,7 +84,7 @@ const Container = ({ data }: ContainerProps) => {
                                     {index+1}
                                 </TableCell>
                                 <TableCell>{row.name}</TableCell>
-                                <TableCell>{row.createdAt}</TableCell>
+                                <TableCell>{row.name}</TableCell>
                                 <TableCell>
                                     <IconButton onClick={handleClick}>
                                         <MoreVertIcon />
@@ -95,7 +96,7 @@ const Container = ({ data }: ContainerProps) => {
                 </TableData>
             </div>
             <div className='flex justify-end'>
-                <Pagination onChange={(e,page)=>console.log(page)} count={10} variant="outlined" />
+                <Pagination onChange={(e,page)=>console.log(page)} page={data.pageIndex} count={data.totalPage} variant="outlined" />
             </div>
             <Popover
                 open={open}

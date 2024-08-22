@@ -20,8 +20,13 @@ export type Order={
     status: string
 }
 export type Role={
+    id:number,
     name: string,
-    createdAt: string,
+    permissions: string,
+}
+export type Permissions={
+    id:number,
+    name: string,
 }
 export type SubCategory={
     name: string,

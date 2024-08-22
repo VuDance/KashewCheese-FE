@@ -5,7 +5,7 @@ import { STORAGE_KEYS } from '../contants/storage-keys';
 
 
 const axiosInstance = axios.create({
-  baseURL: process.env.NEXT_PIBLIC_BASE_URL,
+  baseURL: process.env.NEXT_PUBLIC_BASE_URL,
   headers: {
     "Content-Type": "application/json",
     accept: "*/*",
@@ -18,7 +18,7 @@ const axiosInstance = axios.create({
 
 axiosInstance.interceptors.response.use(
   (response: any) => {
-    return response;
+    return response.data;
   },
   (error: any) => {
     const statusCode = error.status;
