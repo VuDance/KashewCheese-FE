@@ -1,13 +1,15 @@
 import { InputBase } from '@mui/material'
-import React from 'react'
+import React, { ChangeEvent } from 'react'
 
 interface TextFieldCustomProps {
-    placeholder: string
+    placeholder: string,
+    onChange:(param:ChangeEvent<HTMLTextAreaElement|HTMLInputElement>)=>void
+    value:string
 }
 
-const TextFieldCustom = ({ placeholder }: TextFieldCustomProps) => {
+const TextFieldCustom = ({ placeholder,onChange,value }: TextFieldCustomProps) => {
     return (
-        <InputBase className='border w-full rounded-sm p-1 h-[45px] px-3' sx={{
+        <InputBase onChange={onChange} value={value} className='border w-full rounded-sm p-1 h-[45px] px-3' sx={{
             '&:hover': {
                 borderColor: '#3b82f6',
             },

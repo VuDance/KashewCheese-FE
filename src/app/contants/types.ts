@@ -22,7 +22,7 @@ export type Order={
 export type Role={
     id:number,
     name: string,
-    permissions: string,
+    permissions: Permissions[],
 }
 export type Permissions={
     id:number,

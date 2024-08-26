@@ -15,11 +15,13 @@ const config: Config = {
       },
       backgroundColor:{
         "primary": "#FFFFFF",
-        "secondary": "#F5F7FA",  
+        "secondary": "#F5F7FA",
+        "disabled":"#ccc"  
       },
       colors:{
         "sidebar":"#2D60FF",
-        'primary':"#263238"
+        'primary':"#263238",
+        'disabled':"#888"
       }
     },
   },

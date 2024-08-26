@@ -26,7 +26,8 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-hook-form": "^7.51.5",
-    "react-query": "^3.39.3"
+    "react-query": "^3.39.3",
+    "react-toastify": "^10.0.5"
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",

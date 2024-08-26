@@ -26,6 +26,7 @@
       "CreatedAt":"Created At",
       "ViewDetail":"View Detail",
       "CreateRole":"Create Role",
+      "EditRole":"Edit Role",
       "DeleteRole":"Delete Role",
       "RoleName":"Role Name",
       "UsersManagement":"Users Management",
